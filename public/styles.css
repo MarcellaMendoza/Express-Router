@@ -1,0 +1,52 @@
+.flexCenter {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  text-align: center;
+}
+
+.rowOne {
+  grid-column: 1 / 4;
+  grid-row: 1;
+}
+.rowTwo {
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+.rowThreeColOne {
+  grid-column: 1 / 2;
+  grid-row: 3;
+}
+.rowThreeColTwo {
+  grid-column: 2 / 3;
+  grid-row: 3;
+}
+.rowThreeColThree {
+  grid-column: 3 / 4;
+  grid-row: 3;
+}
+.four {
+  grid-column: 1 / 4;
+  grid-row: 4;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+img {
+  max-width: 150px;
+}
+
+.door {
+  
+  background:
+    url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Door-liftarn-Door-white-stroke.svg/640px-Door-liftarn-Door-white-stroke.svg.png") no-repeat;
+  background-size: 100% 100%;
+  border: none;
+  width: 150px;
+  height: 300px;
+}

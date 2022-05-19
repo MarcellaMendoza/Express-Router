@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grid">
+    <div class="rowOne flexCenter">
+      <h1>The Monty Hall Gameshow!</h1>
+    </div>
+    <div class="rowTwo flexCenter">
+      <p>Click one of the three buttons below to make your pick. Behind one of the three doors is a car. Behind the other two doors are goats. Once you make your selection, one of the two remaining doors will be opened to reveal a goat. You will be given the opportunity to change the door you chose. But should you?</p>
+    </div>
+    <div class="rowThreeColOne flexCenter">
+      <button id="door1" class="door" onclick="Door1Clicked()"></button>
+    </div>
+    <div class="rowThreeColTwo flexCenter">
+      <button id="door2" class="door" onclick="Door2Clicked()"></button>
+    </div>
+    <div class="rowThreeColThree flexCenter">
+      <button id="door3" class="door" onclick="Door3Clicked()"></button>
+    </div>
+    <div class="four flexCenter">
+      <button onclick="ResetClicked()">Reset</button>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
